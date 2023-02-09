@@ -1,4 +1,4 @@
-Contact Form Template
+**Contact Form Template**
 
-Created using HTML and CSS.
-Image from: pixabay.com
+Created using HTML and CSS.<br>
+Image from: *pixabay.com*
