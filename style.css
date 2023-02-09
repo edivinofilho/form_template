@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #00020e88;
+}
+
+.container .left {
+    width: 60%;
+    height: 580px;
+    background-image: linear-gradient(317deg, rgba(251,253,255,0.6) 6%, rgba(53,114,190,0) 32%), 
+    url('./cubes-2492010_1920.jpg');
+    background-size:auto;
+}
+
+.container .left form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.container .left form .title {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.container .left form input {
+    margin-bottom: 20px;
+    border-color: transparent;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+.container .left form input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.container .left form input:focus {
+    
+}
+
+.container .left form input:hover {
+    box-shadow: 1px 3px grey;
+}
+
+.container .left form textarea {
+    margin-bottom: 20px;
+    border-color: transparent;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    resize: none
+}
+
+.container .left form textarea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.container .left form textarea:hover {
+    box-shadow: 1px 3px grey;
+}
+.container .left form input[type="email"] {
+    
+}
+
+.container .left form button {
+    width: 120px;
+    height: 45px;
+    border-style: none;
+    color:#ffffff;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #ffffff;
+    background-color: #00020E;
+}
+
+.container .left form button:hover {
+    background-color: #ffffff;
+    color:#0A152B;
+    box-shadow: 1px 3px grey;
+}
+
+.container .right {
+    width: 38%;
+    height: 580px;
+    display: flex;
+    flex-direction:column;
+    padding: 0 40px;
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color:#0A152B;
+    
+}
+
+.container .right .title {
+    font-family: 'Poppins', sans-serif;
+    color:#0A152B;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #0A152B;
+}
+
+.container .right .mainText {
+    margin-bottom: 38px;
+}
+
+.container .right p {
+    padding-bottom: 4px;
+}
+
+.container .right span {
+    font-weight: bold;
+}
