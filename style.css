@@ -43,6 +43,7 @@ body {
     border-bottom: 1px solid #ffffff;
     background-color: transparent;
     padding-bottom: 10px;
+    color:white;
 }
 
 .container .left form input::placeholder {
@@ -53,11 +54,12 @@ body {
 }
 
 .container .left form input:focus {
-    
+    outline: none;
 }
 
 .container .left form input:hover {
     box-shadow: 1px 3px grey;
+    transition: 0.5s;
 }
 
 .container .left form textarea {
@@ -65,7 +67,9 @@ body {
     border-color: transparent;
     border-bottom: 1px solid #ffffff;
     background-color: transparent;
-    resize: none
+    resize: none;
+    color:white;
+    font-family: 'Inter', sans-serif;
 }
 
 .container .left form textarea::placeholder {
@@ -77,6 +81,7 @@ body {
 
 .container .left form textarea:hover {
     box-shadow: 1px 3px grey;
+    transition: 0.5s;
 }
 .container .left form input[type="email"] {
     
@@ -95,7 +100,9 @@ body {
 .container .left form button:hover {
     background-color: #ffffff;
     color:#0A152B;
-    box-shadow: 1px 3px grey;
+    box-shadow: 1px 3px #282b37;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .container .right {
