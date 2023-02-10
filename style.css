@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap');
 
-body {
+.alignment {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
 
+body {
+    height: 100vh;
 }
 
 .container {
     width: 800px;
     height: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 5px 5px 10px #00020e88;
 }
 
