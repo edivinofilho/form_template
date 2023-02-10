@@ -69,6 +69,7 @@ body {
     resize: none;
     color:white;
     font-family: 'Inter', sans-serif;
+    outline: none;
 }
 
 .container .left form textarea::placeholder {
